@@ -1,0 +1,70 @@
+:root {
+  --sidebar-color: #f0ffff;
+  --basic-color: #000000;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  width: 200px;
+  padding: 50px;
+  float: left;
+  height: 100vh;
+  background-color: var(--sidebar-color);
+}
+
+.widjet {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.widjet h5 {
+  margin-bottom: 50px;
+}
+
+.sidebar ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+.sidebar ul {
+  padding-left: 0px;
+}
+
+.sidebar ul li a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--basic-color);
+}
+
+.sidebar ul li a::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: var(--basic-color);
+  transform: scale(0, 1);
+  transform-origin: center top;
+  transition: transform 0.3s;
+}
+.sidebar ul li a:hover::after {
+  transform: scale(1, 1);
+}
+
+.main {
+  display: block;
+  width: 100%;
+}
+
+.header {
+  background: url(../image/yakushima.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+/* タブレットではない場合(=スマホの場合) */
+@media only screen and (max-width: 767px) {
+}
