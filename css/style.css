@@ -62,14 +62,17 @@
   transform: scale(1, 1);
 }
 
-.main {
+/* .main {
   flex: 1 0 auto;
   display: flex;
   justify-content: center;
-}
+} */
 
 .header {
   position: relative;
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .header img {
@@ -92,7 +95,7 @@
   position: absolute;
   top: 30%;
   text-align: center;
-  height: 100%;
+  height: 70%;
   width: 100%;
   font-family: var(--basic-font);
 }
