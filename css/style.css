@@ -1,13 +1,14 @@
 :root {
   --sidebar-color: #f0ffff;
-  --basic-color: #000000;
+  --basic-color: #2E2E2E;
 }
 
 .sidebar {
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   width: 200px;
-  padding: 50px;
+  padding: 35px;
   float: left;
   height: 100vh;
   background-color: var(--sidebar-color);
@@ -29,6 +30,7 @@
 
 .sidebar ul {
   padding-left: 0px;
+  margin-bottom: 50px;
 }
 
 .sidebar ul li a {
@@ -63,6 +65,27 @@
   background: url(../image/yakushima.jpg);
   background-size: auto 100%;
   background-repeat: no-repeat;
+}
+
+.github-icon-side {
+  margin-right: 20px;
+}
+
+.site-title,
+.site-title:hover {
+  color: var(--basic-color);
+  text-decoration: none;
+}
+
+.github-link,
+.twitter-link {
+  color: var(--basic-color);
+}
+
+.github-link:hover,
+.twitter-link:hover {
+  color: var(--basic-color);
+  opacity: 0.7;
 }
 
 /* タブレットではない場合(=スマホの場合) */
