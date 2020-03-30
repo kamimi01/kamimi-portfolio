@@ -62,12 +62,6 @@
   transform: scale(1, 1);
 }
 
-/* .main {
-  flex: 1 0 auto;
-  display: flex;
-  justify-content: center;
-} */
-
 .header {
   position: relative;
   flex: 1 0 auto;
@@ -79,6 +73,41 @@
   width: 85vw;
   height: auto;
   filter: opacity(0.6);
+}
+
+#profile-content {
+}
+
+#profile-content table{
+  width: 100%;
+}
+
+#profile-content table th{
+  position: relative;
+  text-align: left;
+  width: 15%;
+}
+
+#profile-content table th:after{
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: #333;
+  position: absolute;
+  top:calc(50% - 1px);
+  right:20px;
+}
+
+#profile-content table td{
+  text-align: left;
+  width: 85%;
+}
+
+.profile-pic img {
+  width: 15vw;
+  height: auto;
+  border-radius: 50%;
 }
 
 .github-icon-side {
