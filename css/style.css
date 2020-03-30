@@ -1,17 +1,25 @@
 :root {
   --sidebar-color: #f0ffff;
-  --basic-color: #2E2E2E;
+  --basic-color: #2e2e2e;
+  --basic-font: "MingLiU";
+  --background-white: rgba(255, 255, 255, 0.3);
+}
+
+.content {
+  display: flex;
 }
 
 .sidebar {
-  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: -webkit-sticky;
-  top: 0;
-  width: 200px;
-  padding: 35px;
-  float: left;
-  height: 100vh;
-  background-color: var(--sidebar-color);
+  position: sticky;
+  top: 10px;
+  width: 180px;
+  padding: 60px;
+  background: var(--sidebar-color);
+  font-family: var(--basic-font);
 }
 
 .widjet {
@@ -57,14 +65,18 @@
 }
 
 .main {
-  display: block;
-  width: 100%;
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header {
   background: url(../image/yakushima.jpg);
-  background-size: auto 100%;
+  background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
 
 .github-icon-side {
@@ -75,6 +87,18 @@
 .site-title:hover {
   color: var(--basic-color);
   text-decoration: none;
+}
+
+.site-name {
+  text-align: center;
+  margin-top: 25%;
+  height: 140px;
+  font-family: var(--basic-font);
+  background-color: var(--background-white);
+}
+
+.site-name h3 {
+  font-size: 75px;
 }
 
 .github-link,
