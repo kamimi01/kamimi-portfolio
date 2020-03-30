@@ -99,6 +99,8 @@
 
 .site-name h3 {
   font-size: 75px;
+  color: var(--basic-color);
+  font-weight: 600;
 }
 
 .github-link,
