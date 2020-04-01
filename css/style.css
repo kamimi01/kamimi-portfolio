@@ -1,6 +1,8 @@
 :root {
-  --sidebar-color: #f0ffff;
-  --basic-color: #2e2e2e;
+  --sidebar-color: #00293c;
+  --peacok-blue: #1e656d;
+  --ivory: #f1f3ce;
+  --white: #ffffff;
   --basic-font: "MingLiU";
 }
 
@@ -23,6 +25,7 @@
 .widjet {
   text-align: center;
   vertical-align: middle;
+  color: var(--white);
 }
 
 .widjet h5 {
@@ -43,7 +46,7 @@
   position: relative;
   display: inline-block;
   text-decoration: none;
-  color: var(--basic-color);
+  color: var(--white);
 }
 
 .sidebar ul li a::after {
@@ -53,7 +56,7 @@
   content: "";
   width: 100%;
   height: 1px;
-  background: var(--basic-color);
+  background: var(--white);
   transform: scale(0, 1);
   transform-origin: center top;
   transition: transform 0.3s;
@@ -72,10 +75,11 @@
 .header img {
   width: 85vw;
   height: auto;
-  filter: opacity(0.6);
+  filter: grayscale(0.7);
 }
 
 #profile-content {
+  background-color: var(--ivory);
 }
 
 #profile-content table{
@@ -110,13 +114,21 @@
   border-radius: 50%;
 }
 
+#skills-content {
+  background-color: var(--peacok-blue);
+}
+
+#products-content {
+  background-color: var(--ivory);
+}
+
 .github-icon-side {
   margin-right: 20px;
 }
 
 .site-title,
 .site-title:hover {
-  color: var(--basic-color);
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -131,18 +143,24 @@
 
 .site-name h3 {
   font-size: 75px;
-  color: var(--basic-color);
+  color: var(--white);
   font-weight: 600;
+  font-family: var(--basic-font);
+}
+
+.site-name h5 {
+  color: var(--white);
+  font-family: var(--basic-font);
 }
 
 .github-link,
 .twitter-link {
-  color: var(--basic-color);
+  color: var(--white);
 }
 
 .github-link:hover,
 .twitter-link:hover {
-  color: var(--basic-color);
+  color: var(--white);
   opacity: 0.7;
 }
 
