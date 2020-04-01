@@ -153,6 +153,26 @@
   font-family: var(--basic-font);
 }
 
+.site-name a {
+  color: var(--ivory);
+  width: ;
+}
+
+.site-name a:hover {
+  color: var(--ivory);
+  text-decoration: none;
+}
+
+.contact-button {
+  border: solid 1px var(--ivory);
+  height: 50px;
+  width: 150px;
+  padding-top: 10px;
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
 .github-link,
 .twitter-link {
   color: var(--white);
