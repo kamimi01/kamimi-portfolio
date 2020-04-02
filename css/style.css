@@ -83,7 +83,8 @@
   background-color: var(--ivory);
 }
 
-#profile-content h3 {
+#profile-content h3,
+#products-content h3 {
   text-align: center;
   padding-top: 20px;
   margin-bottom: 35px;
@@ -237,9 +238,73 @@
   font-family: var(--basic-font);
 }
 
+.product-pic {
+  width: 280px;
+  height: 188px;
+  overflow: hidden;
+  margin: 10px 8px 0px 0px;
+  position: relative;
+  font-family: var(--basic-font);
+}
+
+.product-pic .caption {
+  font-size: 150%;
+  text-align: center;
+  color: var(--white);
+  font-family: var(--basic-font);
+}
+
+.device-type {
+  font-size: 20px;
+}
+
+.product-pic .mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; /* マスクを表示しない */
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  font-family: var(--basic-font);
+}
+.product-pic:hover .mask {
+  opacity: 1; /* マスクを表示する */
+  padding-top: 80px; /* ホバーで下にずらす */
+  font-family: var(--basic-font);
+}
+
+.product-detail {
+  background-color: var(--white);
+  padding-bottom: 10px;
+  font-family: var(--basic-font);
+}
+
+.product-detail h4 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+.product-detail h5 {
+  font-size: 15px;
+  padding-left: 5px;
+}
+
 .github-link,
 .twitter-link {
   color: var(--white);
+}
+
+.github-link-products {
+  color: var(--black);
+}
+
+.github-link-products:hover {
+  color: var(--black);
+  opacity: 0.7;
 }
 
 .github-link:hover,
