@@ -16,3 +16,12 @@
     }
   });
 })();
+
+// $(document).ready(function() {
+//   $("img").error(function() {
+//     $(this).attr({
+//       src: "../image/no_image.png",
+//       alt: "no image"
+//     });
+//   });
+// });

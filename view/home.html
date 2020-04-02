@@ -2,6 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
+    <title>kamimi-portfolio</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link
       rel="stylesheet"
@@ -13,7 +14,24 @@
       href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
       rel="stylesheet"
     />
-    <title>kamimi-portfolio</title>
+    <!-- bootstrap/jQuery関連の読み込み -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!-- オリジナルのjsの読み込み -->
+    <script type="text/javascript" src="../js/home_dom.js"></script>
   </head>
 
   <body>
@@ -137,35 +155,40 @@
             <div class="container margin-area">
               <div class="row">
                 <div class="col-4">
-                  <div class="product-pic">
-                    <img src="../image/yakushima.jpg" alt="フルーツ寄せ集め" />
-                    <div class="mask">
-                      <div class="caption">Portfolio<br><span class="device-type">(Web)</span></div>
+                  <a href="#">
+                    <div class="product-pic">
+                      <img src="../image/portfolio.png" alt="ポートフォリオ" />
+                      <div class="mask">
+                        <div class="caption">Portfolio<br><span class="device-type">(Web)</span></div>
+                      </div>
                     </div>
-                  </div>
+                  </a>
                   <div class="product-detail">
                     <h4>本ポートフォリオサイト</h4>
                     <h5>使用：</h5>
-                    <h5>HTML / CSS / BootStrap <br>Visual Studio Code</h5>
-                    <a href="https://github.com/kamimi01" target="_blank" class="github-link-products"><i class="fab fa-github fa-2x github-icon-side"></i></a>
-                    <h6>デモ</h6>
+                    <h5>HTML / CSS / BootStrap / Visual Studio Code</h5>
+                    <a href="https://github.com/kamimi01/kamimi-portfolio" target="_blank" class="github-link-products"><i class="fab fa-github fa-2x github-icon-side"></i></a>
                   </div>
                 </div>
                 <div class="col-4">
-                  <div class="product-pic">
-                    <img src="../image/yakushima.jpg" alt="フルーツ寄せ集め" />
-                    <div class="mask">
-                      <div class="caption">TODOアプリ<br><span class="device-type">(Web)</span></div>
+                  <a href="#">
+                    <div class="product-pic">
+                      <img src="#" alt="TODOアプリ(Web)" />
+                      <div class="mask">
+                        <div class="caption">TODOアプリ<br><span class="device-type">(Web)</span></div>
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
                 <div class="col-4">
-                  <div class="product-pic">
-                    <img src="../image/yakushima.jpg" alt="フルーツ寄せ集め" />
-                    <div class="mask">
-                      <div class="caption">TODOアプリ<br><span class="device-type">(iOS)</span></div>
+                  <a href="#">
+                    <div class="product-pic">
+                      <img src="../image/yakushima.jpg" alt="TODOアプリ(iOS)" />
+                      <div class="mask">
+                        <div class="caption">TODOアプリ<br><span class="device-type">(iOS)</span></div>
+                      </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -176,24 +199,7 @@
         </div>
       </div>
     </div>
-    
 
-    <!-- bootstrap/jQuery関連の読み込み -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
     <!-- Vue.jsの読み込み -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <!-- オリジナルのjsの読み込み -->
