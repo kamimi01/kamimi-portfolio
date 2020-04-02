@@ -1,7 +1,17 @@
-// $(function() {
-//   //読み込みエラー時に呼び出される
-//   $("img").error(function() {
-//     $(this).attr("src", "../image/no_image.png");
-//   });
-//   console.log("はm");
-// });
+$(function() {
+  $(".copybtn").on("click", function() {
+    let text = "xxxx@gmail.com";
+    // テキストエリアの作成
+    let $textarea = $("<textarea></textarea>");
+    // テキストエリアに文章を挿入
+    $textarea.text(text);
+    $(this).append($textarea);
+    $textarea.select();
+    // コピー
+    document.execCommand("copy");
+    $textarea.remove();
+
+    //alert("Copy Mail Address to Clipboard");
+    alert("Copy Mail Address to clipboard");
+  });
+});
