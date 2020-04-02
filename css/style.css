@@ -8,6 +8,10 @@
   --basic-font: "MingLiU";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .content {
   display: flex;
 }
