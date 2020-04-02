@@ -32,6 +32,8 @@ html {
   text-align: center;
   vertical-align: middle;
   color: var(--white);
+  position: fixed;
+  top: 50px;
 }
 
 .widjet h5 {
