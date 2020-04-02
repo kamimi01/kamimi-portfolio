@@ -280,6 +280,7 @@
   background-color: var(--white);
   padding-bottom: 10px;
   font-family: var(--basic-font);
+  height: 160px;
 }
 
 .product-detail h4 {
