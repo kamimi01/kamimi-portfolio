@@ -359,6 +359,21 @@ html {
   outline: none;
 }
 
+.curveUpColor,
+.curveDownColor,
+.curveUpColor-contact {
+  background-color: var(--ivory);
+}
+
+.curveUpColor path,
+.curveDownColor path {
+  fill: var(--peacok-blue);
+}
+
+.curveUpColor-contact path {
+  fill: var(--light-ivory);
+}
+
 .margin-area {
   padding-bottom: 80px;
 }
