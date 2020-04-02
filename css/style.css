@@ -108,10 +108,22 @@
   width: 85%;
 }
 
+.profile-pic {
+  text-align: center;
+}
+
 .profile-pic img {
   width: 15vw;
   height: auto;
   border-radius: 50%;
+}
+
+.name-label {
+  font-family: var(--basic-font);
+  margin-top: 10px;
+}
+
+.profile-detail {
 }
 
 #skills-content {
