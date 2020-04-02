@@ -122,6 +122,10 @@
   background-color: var(--ivory);
 }
 
+#contact-content {
+  background-color: var(--peacok-blue);
+}
+
 .github-icon-side {
   margin-right: 20px;
 }
@@ -167,10 +171,13 @@
   border: solid 1px var(--ivory);
   height: 50px;
   width: 150px;
-  padding-top: 10px;
-  margin-top: 30px;
+  padding-top: 2px;
+  margin-top: 40px;
   font-size: 20px;
   text-align: center;
+  background-color: transparent;
+  color: var(--ivory);
+  font-family: var(--basic-font);
 }
 
 .github-link,
