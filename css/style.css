@@ -3,6 +3,7 @@
   --peacok-blue: #1e656d;
   --ivory: #f1f3ce;
   --white: #ffffff;
+  --black: #000000;
   --basic-font: "MingLiU";
 }
 
@@ -82,30 +83,13 @@
   background-color: var(--ivory);
 }
 
-#profile-content table{
-  width: 100%;
-}
-
-#profile-content table th{
-  position: relative;
-  text-align: left;
-  width: 15%;
-}
-
-#profile-content table th:after{
-  display: block;
-  content: "";
-  width: 30px;
-  height: 2px;
-  background-color: #333;
-  position: absolute;
-  top:calc(50% - 1px);
-  right:20px;
-}
-
-#profile-content table td{
-  text-align: left;
-  width: 85%;
+#profile-content h3 {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 35px;
+  color: var(--peacok-blue);
+  font-family: var(--basic-font);
+  font-weight: 600;
 }
 
 .profile-pic {
@@ -123,7 +107,16 @@
   margin-top: 10px;
 }
 
-.profile-detail {
+.whatido-title,
+.hobbies-title {
+  font-family: var(--basic-font);
+  font-weight: 600;
+  border-top: solid 3px var(--black);
+  border-bottom: solid 3px var(--black);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #skills-content {
@@ -201,6 +194,10 @@
 .twitter-link:hover {
   color: var(--white);
   opacity: 0.7;
+}
+
+.margin-area {
+  padding-bottom: 30px;
 }
 
 /* タブレットではない場合(=スマホの場合) */
