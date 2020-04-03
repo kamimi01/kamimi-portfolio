@@ -10,6 +10,7 @@
 * JavaScript
 
 ### ライブラリ・フレームワーク
+* Bootstrap
 * jQuery
 * Vue.js(導入済みだが未使用)
 
