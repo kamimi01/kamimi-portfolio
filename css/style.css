@@ -92,7 +92,7 @@ html {
 }
 
 .header img {
-  filter: grayscale(0.7);
+  filter: grayscale(0.3);
   top: 0;
   left: 0;
   width: 85vw;
