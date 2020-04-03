@@ -407,11 +407,14 @@ html {
 
 /* タブレットではない場合(=スマホの場合) */
 @media only screen and (max-width: 767px) {
+  body {
+    padding-top: 53px;
+  }
+
   .navbar {
     visibility: visible;
     pointer-events: auto;
     width: auto;
-    position: fixed;
   }
 
   .navbar-dark .navbar-toggler {
