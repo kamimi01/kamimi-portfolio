@@ -20,7 +20,7 @@ html {
 }
 
 .navbar-dark .navbar-toggler {
-  border-color: rgba(0,0,0,0);
+  border-color: rgba(0, 0, 0, 0);
 }
 
 .content {
@@ -406,6 +406,21 @@ html {
   fill: var(--light-ivory);
 }
 
+.slide {
+  position: relative;
+  height: 188px;
+}
+.slide img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 188px;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: inherit;
+}
+
 .margin-area {
   padding-bottom: 80px;
 }
@@ -423,7 +438,7 @@ html {
   }
 
   .navbar-dark .navbar-toggler {
-    border-color: rgba(0,0,0,0);
+    border-color: rgba(0, 0, 0, 0);
   }
 
   .navbar-toggler:focus {
@@ -492,5 +507,4 @@ html {
   .site-name h5 {
     font-size: 15px;
   }
-
 }
