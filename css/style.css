@@ -470,7 +470,8 @@ html {
     outline: 0;
   }
 
-  .site-title-mobile {
+  .site-title-mobile,
+  .menu-mobile {
     font-family: var(--basic-font);
   }
 
