@@ -352,16 +352,30 @@ html {
   color: var(--white);
 }
 
-.github-link-products,
-.twitter-link-contact {
+.github-link-products {
+  color: var(--black);
+  margin-left: 10px;
+  position: absolute;
+  bottom: 5px;
+}
+
+.twitter-link-contact,
+.github-link-contact {
   color: var(--black);
   margin-left: 10px;
 }
 
 .github-link-products:hover,
-.twitter-link-contact:hover {
+.twitter-link-contact:hover,
+.github-link-contact:hover,
+.mail-icon:hover {
   color: var(--black);
   opacity: 0.7;
+}
+
+.github-link-contact {
+  color: var(--black);
+  margin-left: 10px;
 }
 
 .github-link:hover,
