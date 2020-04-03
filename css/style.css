@@ -343,6 +343,8 @@ html {
   font-family: var(--basic-font);
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .github-link,
