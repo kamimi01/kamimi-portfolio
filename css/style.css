@@ -441,4 +441,23 @@ html {
   .site-name h3 {
     font-size: 30px;
   }
+
+  #profile-content h3,
+  #products-content h3,
+  #contact-content h3,
+  #skills-content h3 {
+    font-size: 30px;
+  }
+
+  .header {
+    height: 200px;
+  }
+
+  .contact-button {
+    margin-top: 10px;
+    height: 30px;
+    width: 130px;
+    font-size: 1.25rem;
+    padding-top: 1px;
+  }
 }
