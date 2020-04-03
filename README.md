@@ -13,10 +13,13 @@
 * Bootstrap
 * jQuery
 * Fontawesome
-* Vue.js(導入済みだが未使用)
 
 ### ツール
 * Visual Studio Code
+
+### 今後使用したいもの
+* Vue.js(導入済みだが未使用)
+* ejs
 
 ## 工夫したこと
 * グローバルメニュを固定配置し、どのページにいてもすぐ別のコンテンツをみることができる
