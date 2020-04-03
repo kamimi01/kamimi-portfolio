@@ -12,6 +12,7 @@
 ### ライブラリ・フレームワーク
 * Bootstrap
 * jQuery
+* Fontawesome
 * Vue.js(導入済みだが未使用)
 
 ### ツール
