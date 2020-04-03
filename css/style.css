@@ -12,6 +12,13 @@ html {
   scroll-behavior: smooth;
 }
 
+.navbar {
+  visibility: hidden;
+  pointer-events: none;
+  padding: 0px;
+  width: 0px;
+}
+
 .content {
   display: flex;
 }
@@ -396,4 +403,30 @@ html {
 
 /* タブレットではない場合(=スマホの場合) */
 @media only screen and (max-width: 767px) {
+  .navbar {
+    visibility: visible;
+    pointer-events: auto;
+    width: auto;
+    position: fixed;
+  }
+
+  .navbar-dark .navbar-toggler {
+    border-color: rgba(0,0,0,0);
+  }
+
+  .content {
+    display: block;
+  }
+
+  .sidebar,
+  .widjet {
+    visibility: hidden;
+    pointer-events: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .site-name h3 {
+    font-size: 30px;
+  }
 }
