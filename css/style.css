@@ -99,6 +99,7 @@ html {
   color: var(--peacok-blue);
   font-family: var(--basic-font);
   font-weight: 600;
+  font-size: 50px;
 }
 
 .profile-pic {
@@ -114,6 +115,8 @@ html {
 .name-label {
   font-family: var(--basic-font);
   margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .whatido {
@@ -124,12 +127,21 @@ html {
 .hobbies-title {
   font-family: var(--basic-font);
   font-weight: 600;
+  font-size: 20px;
   border-top: solid 3px var(--black);
   border-bottom: solid 3px var(--black);
   padding-top: 5px;
   padding-bottom: 5px;
+  padding-left: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.whatido-content,
+.hobbies-content {
+  font-family: var(--basic-font);
+  font-size: 20px;
+  padding-left: 5px;
 }
 
 #skills-content {
@@ -143,6 +155,7 @@ html {
   color: var(--ivory);
   font-family: var(--basic-font);
   font-weight: 600;
+  font-size: 50px;
 }
 
 .skill-list {
@@ -167,25 +180,28 @@ html {
   margin-bottom: 10px;
   color: var(--white);
   font-family: var(--basic-font);
+  font-size: 20px;
 }
 
 .languages-icon,
 .libraries-icon,
 .tool-icon {
-  border: solid 1px var(--ivory);
+  border: solid 1px var(--peacok-blue);
+  background-color: var(--ivory);
   border-radius: 50%;
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   margin-right: 0px;
+  margin-left: 30px;
 }
 
 .pen-icon,
 .book-icon,
 .tools-icon {
-  color: var(--ivory);
+  color: var(--peacok-blue);
   text-align: center;
   vertical-align: middle;
-  padding: 20px;
+  padding: 23px;
 }
 
 #products-content {

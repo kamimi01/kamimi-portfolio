@@ -11,7 +11,6 @@ $(function() {
     document.execCommand("copy");
     $textarea.remove();
 
-    //alert("Copy Mail Address to Clipboard");
     alert("Copy Mail Address to clipboard");
   });
 });
