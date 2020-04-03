@@ -118,7 +118,7 @@ html {
 }
 
 .profile-pic img {
-  width: 15vw;
+  width: 20vw;
   height: auto;
   border-radius: 50%;
 }
@@ -460,4 +460,25 @@ html {
     font-size: 1.25rem;
     padding-top: 1px;
   }
+
+  .languages-icon,
+  .libraries-icon,
+  .tool-icon {
+    margin-left: 15px;
+  }
+
+  .whatido-title,
+  .hobbies-title,
+  .whatido-content,
+  .hobbies-content,
+  .skill-list h4,
+  .skill-list ul li,
+  .product-detail h4 {
+    font-size: 17px;
+  }
+
+  .product-detail h5 {
+    font-size: 13px;
+  }
+
 }
