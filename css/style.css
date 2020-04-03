@@ -422,6 +422,10 @@ html {
     outline: 0;
   }
 
+  .site-title-mobile {
+    font-family: var(--basic-font);
+  }
+
   .content {
     display: block;
   }
