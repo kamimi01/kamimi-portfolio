@@ -100,6 +100,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   max-width: inherit;
+  pointer-events: none;
 }
 
 #profile-content {
@@ -126,6 +127,7 @@ html {
   width: 20vw;
   height: auto;
   border-radius: 50%;
+  pointer-events: none;
 }
 
 .name-label {
@@ -436,6 +438,7 @@ html {
   min-width: 100%;
   min-height: 100%;
   max-width: inherit;
+  pointer-events: none;
 }
 
 .tool-tip {
