@@ -19,6 +19,10 @@ html {
   width: 0px;
 }
 
+.navbar-dark .navbar-toggler {
+  border-color: rgba(0,0,0,0);
+}
+
 .content {
   display: flex;
 }
@@ -412,6 +416,10 @@ html {
 
   .navbar-dark .navbar-toggler {
     border-color: rgba(0,0,0,0);
+  }
+
+  .navbar-toggler:focus {
+    outline: 0;
   }
 
   .content {
