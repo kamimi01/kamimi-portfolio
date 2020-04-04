@@ -47,6 +47,7 @@
 * Bootstrap
 * jQuery
 * Fontawesome
+* Firebase
 
 ### ツール
 * Visual Studio Code
