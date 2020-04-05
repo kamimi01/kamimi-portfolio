@@ -353,11 +353,9 @@ html {
   color: var(--white);
 }
 
-.github-link-products {
+.github-link-products,
+.demo-link {
   color: var(--black);
-  /* margin-left: 10px; */
-  position: absolute;
-  bottom: 5px;
 }
 
 .twitter-link-contact,
@@ -369,7 +367,8 @@ html {
 .github-link-products:hover,
 .twitter-link-contact:hover,
 .github-link-contact:hover,
-.mail-icon:hover {
+.mail-icon:hover,
+.demo-link:hover {
   color: var(--black);
   opacity: 0.7;
 }
@@ -462,6 +461,14 @@ html {
   border-top: 15px solid var(--peacok-blue);
   margin-left: -15px;
   transform: rotateZ(180deg);
+}
+
+.link-list {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 5px;
+  bottom: 5px;
 }
 
 .margin-area {
