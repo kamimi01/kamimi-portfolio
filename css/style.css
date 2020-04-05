@@ -322,7 +322,7 @@ html {
 }
 
 .product-detail {
-  background-color: var(--white);
+  background-color: var(--ivory);
   padding-bottom: 10px;
   font-family: var(--basic-font);
   height: 160px;
@@ -334,6 +334,7 @@ html {
   font-size: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-bottom: solid 2px var(--black);
 }
 .product-detail h5 {
   font-size: 15px;
