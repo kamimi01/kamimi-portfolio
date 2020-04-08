@@ -108,8 +108,7 @@ html {
 }
 
 #profile-content h3,
-#products-content h3,
-#contact-content h3 {
+#products-content h3 {
   text-align: center;
   padding-top: 50px;
   margin-bottom: 50px;
@@ -117,6 +116,24 @@ html {
   font-family: var(--basic-font);
   font-weight: 600;
   font-size: 50px;
+}
+
+#contact-content h3 {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  color: var(--peacok-blue);
+  font-family: var(--basic-font);
+  font-weight: 600;
+  font-size: 50px;
+}
+
+#contact-content h4 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--black);
+  font-family: var(--basic-font);
+  font-size: 17px;
 }
 
 .profile-pic {
@@ -325,7 +342,7 @@ html {
   background-color: var(--ivory);
   padding-bottom: 10px;
   font-family: var(--basic-font);
-  height: 160px;
+  height: 200px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -550,6 +567,10 @@ html {
   .skill-list ul li,
   .product-detail h4 {
     font-size: 17px;
+  }
+
+  #contact-content h4 {
+    font-size: 15px;
   }
 
   .product-detail h5 {
