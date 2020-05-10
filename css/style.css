@@ -342,7 +342,7 @@ html {
   background-color: var(--ivory);
   padding-bottom: 10px;
   font-family: var(--basic-font);
-  height: 200px;
+  height: 150px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -491,6 +491,56 @@ html {
 
 .margin-area {
   padding-bottom: 80px;
+}
+
+.modal_body_custom {
+  padding: 30px;
+}
+
+.modal_content_style {
+  /* background-color: var(--light-ivory);
+  border-radius: 20px; */
+}
+
+.modal_title {
+  color: var(--peacok-blue);
+  text-align: center;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.modal {
+  color: black;
+}
+
+.cancel_button {
+  width: 40%;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  border: none;
+  background-color: var(--peacok-blue);
+}
+
+.cancel_button:focus {
+  outline: 0;
+}
+
+.buttonContainer {
+  text-align: center;
+}
+
+.detail_table th {
+  width: 30%;
+}
+
+.close:focus {
+  outline: 0;
 }
 
 /* タブレットではない場合(=スマホの場合) */

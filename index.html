@@ -184,7 +184,7 @@
             <div class="container margin-area">
               <div class="row">
                 <div class="col-md-4">
-                  <a href="#">
+                  <a href="" data-toggle="modal" data-target="#portfolioInfoModal">
                     <div class="product-pic">
                       <div class="slide">
                         <img src="image/portfolio.png" alt="ポートフォリオ" />
@@ -195,13 +195,8 @@
                     </div>
                   </a>
                   <div class="product-detail">
-                    <h4>本ポートフォリオサイト</h4>
+                    <h4>ポートフォリオサイト</h4>
                     <h5>このサイトです。利用可能なスキルや作品を紹介しています。</h5>
-                    <h5>HTML / CSS / BootStrap / jQuery / Visual Studio Code</h5>
-                    <div class="d-flex justify-content-end link-list">
-                      <a href="https://github.com/kamimi01/kamimi-portfolio" target="_blank" class="github-link-products"><i class="fab fa-github fa-2x github-icon-side"></i></a>
-                      <a href="#" class="demo-link"><i class="fas fa-rocket fa-2x"></i></a>
-                    </div>
                   </div>
                 </div>
                 <div class="col-md-4">
@@ -218,11 +213,6 @@
                   <div class="product-detail">
                     <h4>xxxxアプリ</h4>
                     <h5>xxxです。xxxやxxxをすることができます。</h5>
-                    <h5>HTML / CSS / Ruby / Ruby on Rails / Visual Studio Code</h5>
-                    <div class="d-flex justify-content-end link-list">
-                      <a href="#" class="github-link-products"><i class="fab fa-github fa-2x github-icon-side"></i></a>
-                      <a href="#" class="demo-link"><i class="fas fa-rocket fa-2x"></i></a>
-                    </div>
                   </div>
                 </div>
                 <div class="col-md-4">
@@ -239,11 +229,6 @@
                   <div class="product-detail">
                     <h4>xxxxアプリ</h4>
                     <h5>xxxです。xxxやxxxをすることができます。</h5>
-                    <h5>Swift / <br>Xcode</h5>
-                    <div class="d-flex justify-content-end link-list">
-                      <a href="#" class="github-link-products"><i class="fab fa-github fa-2x github-icon-side"></i></a>
-                      <a href="#" class="demo-link"><i class="fas fa-rocket fa-2x"></i></a>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -256,7 +241,7 @@
 
           <div id="contact-content">
             <h3>CONTACT</h3>
-            <h4>現在ご連絡は<br>Githubでのみ受け付けております。</h4>
+            <h4 hidden>現在ご連絡は<br>Githubでのみ受け付けております。</h4>
             <div class="contact-list margin-area">
               <div class="mail-icon inline-block">
                 <button class="copybtn"><i class="fas fa-envelope-square fa-3x"></i></button>
@@ -273,6 +258,50 @@
           </div>
         </div>
       </div>
+
+      <!-- モーダル -->
+      <div class="modal fade" id="portfolioInfoModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content modal_content_style" style="background-color:rgb(251, 252, 230); border-radius: 20px;">
+            <div class="modal-body modal_body_custom">
+              <div class="modal_title">
+                ポートフォリオサイト
+                <button type="button" class="close" aria-label="閉じる" data-dismiss="modal" style="font-size: 2.0rem;">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <br>
+              <table class="table detail_table">
+                <tr>
+                  <th>URL</th>
+                  <td><a href="https://kamimiportfolioproject.web.app/">https://kamimiportfolioproject.web.app/</a></td>
+                </tr>
+                <tr>
+                  <th>ソースコード</th>
+                  <td><a href="https://github.com/kamimi01/kamimi-portfolio">https://github.com/kamimi01/kamimi-portfolio</a></td>
+                </tr>
+                <tr>
+                  <th>説明</th>
+                  <td>本ポートフォリオサイトです。Kamimiの利用可能なスキルや実績について紹介しています。</td>
+                </tr>
+                <tr>
+                  <th>工夫したこと</th>
+                  <td>
+                    レスポンシブ対応を行い、PC画面サイズだけでなくスマートホンのサイズにも対応しました<br>
+                    グローバルメニューを固定配置し、サイトのどこにいても各コンテンツにアクセスしやすいようにしました<br>
+                    各コンテンツの境にsvgを用いて、コンテンツの区切りをユニークにしました
+                  </td>
+                </tr>
+                <tr>
+                  <th>使用した技術</th>
+                  <td>HTML / CSS / BootStrap / jQuery / Visual Studio Code</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>
