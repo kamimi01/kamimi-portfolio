@@ -5,6 +5,7 @@
   --light-ivory: rgb(251, 252, 230);
   --white: #ffffff;
   --black: #000000;
+  --light-gray: #dcdcdc;
   --basic-font: "MingLiU";
 }
 
@@ -533,8 +534,24 @@ html {
   text-align: center;
 }
 
+.detail_table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.detail_table th,table td{
+  padding: 10px 0px 10px 10px;
+  text-align: left;
+}
+
 .detail_table th {
   width: 30%;
+}
+
+.detail_table tr{
+  border-top: solid 1px var(--light-gray);
+  border-bottom: solid 1px var(--light-gray);
 }
 
 .close:focus {
