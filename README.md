@@ -1,12 +1,33 @@
 # kamimi-portfolio
 
+![PC用ポートフォリオ](assets/portfolio_web.png "portfolio_web")
+
 ## このサイトについて
 
-- フロントエンドのみのポートフォリオサイト
+- Kamimiのポートフォリオサイト
+- リンク
+  - [kamimi-portfolio](https://kamimiportfolioproject.web.app)
 
-## デモ(PC 用表示のみ)
+## ローカル開発
 
-![PC用ポートフォリオ](assets/portfolio_web.png "portfolio_web")
+### 前提条件
+
+- `firebase-tools`のnpmモジュールがインストールされていること
+- `firebase login`を実行して、ログインしていること
+  - 長期間ログイン状態の場合、次回以降にデプロイなどの操作をしようとするとエラーになるため、`firebase logout`後に再度`firebase login`を行う必要がある
+  - 参考
+    - [Firebaseは長期間ログアウトしていないアカウントだとエラーが返る](https://iwb.jp/firebase-account-returns-error-not-login-long-time/)
+
+### 各種コマンド
+
+- デプロイする
+  - `firebase deploy`
+
+- Firebase プロジェクトをローカルで実行してテストする
+  - `firebase serve --only hosting`
+
+- 参考
+  - [Firebase CLI リファレンス](https://firebase.google.com/docs/cli?hl=ja#macos)
 
 ## 実装完了までの手順
 
@@ -66,25 +87,6 @@
 ### ツール
 
 - Visual Studio Code
-
-### 改善できること(および反省)
-
-- html ファイルと css ファイルが一つのみで、肥大化している
-  - ejs を導入し、ファイルを分割する
-- 英語対応を行う
-  - Nust.js のライブラリ(vue-i18n)を導入する
-- スマホでのスムーススクロールを実現すること(Web では対応済み)
-  - `-webkit-overflow-scrolling`で実装可能とのことでやってみたが、適用されなかった
-  - また上記のプロパティは、MDN のサイトによると非標準のため、できれば別方法を試したい
-  - 参考：https://developer.mozilla.org/ja/docs/Web/CSS/-webkit-overflow-scrolling
-- Bootstrap のデフォルトのスタイルを打ち消すため、HTML ファイル内でスタイルを使用しているので、それをやめたい。
-  - CSS ファイルにスタイルを記載したが、適用されなかったため、止む無く HTML ファイルのタグ内に記載した
-- 元々、View フォルダの中に html を格納していたが、Firebase でデプロイする際に、public 直下に index.html が必要とのことだったので、フォルダ構成・ファイル名を変更したのだが、本当は自分の好みのフォルダ構成でデプロイできるようにしたい
-- 当初、モックアップが全くない状態で作り始めたのだが、細かいデザインや挙動などをどうするかを考えながらコーディングをしていると手戻りが発生したりして効率が悪かった
-  - 最初から簡単にでもモックアップを作成してからコーディングを始めた方がよかった(今回は途中からモックアップ作成を行なった)
-- プロダクトのコンテンツのデザインが微妙..
-- プロダクトの情報が少ない
-- 画像サイズが大きいせいか、読み込みが遅い
 
 ### 今後導入してみたいこと
 
