@@ -4,7 +4,7 @@
 
 ## このサイトについて
 
-- Kamimiのポートフォリオサイト
+- Kamimi のポートフォリオサイト
 - リンク
   - [kamimi-portfolio](https://kamimiportfolioproject.web.app)
 
@@ -12,18 +12,20 @@
 
 ### 前提条件
 
-- `firebase-tools`のnpmモジュールがインストールされていること
+- `firebase-tools`の npm モジュールがインストールされていること
 - `firebase login`を実行して、ログインしていること
   - 長期間ログイン状態の場合、次回以降にデプロイなどの操作をしようとするとエラーになるため、`firebase logout`後に再度`firebase login`を行う必要がある
   - 参考
-    - [Firebaseは長期間ログアウトしていないアカウントだとエラーが返る](https://iwb.jp/firebase-account-returns-error-not-login-long-time/)
+    - [Firebase は長期間ログアウトしていないアカウントだとエラーが返る](https://iwb.jp/firebase-account-returns-error-not-login-long-time/)
 
 ### 各種コマンド
 
 - デプロイする
+
   - `firebase deploy`
 
 - Firebase プロジェクトをローカルで実行してテストする
+
   - `firebase serve --only hosting`
 
 - 参考
@@ -87,8 +89,3 @@
 ### ツール
 
 - Visual Studio Code
-
-### 今後導入してみたいこと
-
-- Vue.js
-- このサイトから直接 Kamimi に連絡できるようにフォームを作成すること(Google フォーム導入したい)
