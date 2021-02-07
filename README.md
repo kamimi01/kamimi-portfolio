@@ -49,7 +49,7 @@
   - 実際のエンジニア・デザイナーのポートフォリオ
 - 画像などの素材
   - 自分で撮った写真
-  - <a href="https://ai-art.tokyo/">AI 画伯</a>で作成した画像(ツール使わせていただきました!ありがとうございます)
+  - [AI 画伯](https://ai-art.tokyo/)で作成した画像(ツール使わせていただきました!ありがとうございます)
 
 3. モックアップ作成 (実工数：約 4 時間)
 
@@ -60,16 +60,19 @@
 4. Web サイトを公開 (実工数：約 2 時間)
 
 - Firebase で公開
-- 参考：https://dotinstall.com/lessons/hosting_firebase
+  - 参考：https://dotinstall.com/lessons/hosting_firebase
 
 ## 工夫したこと
 
 - グローバルメニュを固定配置し、どのページにいてもすぐ別のコンテンツをみることができる
 - レスポンシブ対応を行った
-- コンテンツごとの切り口に svg を用いて波線にした(参考：http://tympanus.net/codrops/2013/10/03/a-collection-of-separator-styles/)
-- PC では、プロダクトのスクリーンショットの上にカーソルを当てると、別コンポーネントが現れる(参考：https://blog.raizzenet.com/mouse-hover-caption-effects-in-css/)
+- コンテンツごとの切り口に svg を用いて波線にした
+  - 参考：http://tympanus.net/codrops/2013/10/03/a-collection-of-separator-styles/
+- PC では、プロダクトのスクリーンショットの上にカーソルを当てると、別コンポーネントが現れる
+  - 参考：https://blog.raizzenet.com/mouse-hover-caption-effects-in-css/
 - コンタクトのメールアイコンを押下すると、メールアドレスをクリップボードにコピーすることができる
-- メールアドレスをコピーすると、ツールチップを表示する(参考：https://www.jungleocean.com/programming/190308tooltip-css)
+- メールアドレスをコピーすると、ツールチップを表示する
+  - 参考：https://www.jungleocean.com/programming/190308tooltip-css
 
 ## 使用
 
