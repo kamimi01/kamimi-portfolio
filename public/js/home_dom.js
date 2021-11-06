@@ -1,6 +1,6 @@
 $(function() {
   $(".copybtn").on("click", function() {
-    let text = "xxxx@gmail.com";
+    let text = "awakaru0122@gmail.com";
     let $textarea = $("<textarea></textarea>");
 
     $textarea.text(text);
