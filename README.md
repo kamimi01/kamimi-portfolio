@@ -1,5 +1,7 @@
 # kamimi's portfolio
 
+[README in Japanese](./docs/ja/README.md)
+
 ![PC用ポートフォリオ](assets/portfolio_web.png "portfolio_web")
 
 <!-- TABLE OF CONTENTS -->
